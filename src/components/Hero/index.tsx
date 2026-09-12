@@ -1,10 +1,11 @@
 import Banner from "@/assets/images/banner.jpg"
+import { Button } from "../Button"
 export const Hero = () => {
     return (
         <>
             <div className="container">
                 <section className="relative h-125 rounde-[20px] mb-10">
-                    <img src={Banner} alt="Homem sentado com tênis da SytaxWear" className="w-full h-full object-cover rounded-[20px]" />
+                    <img src={Banner} alt="Homem sentado com tênis da SyntaxWear" className="w-full h-full object-cover rounded-[20px]" />
 
                     <div className="absolute w-full bottom-0 flex justify-end items-center text-center px-6 md:px-24 pb-32">
                         <div className="text-white w-91 flex flex-col items-center ">
@@ -12,8 +13,8 @@ export const Hero = () => {
                             <h1 className="text-2xl leading-9 tracking-wider mb-10">Transforme qualquer passo em presença</h1>
 
                             <div className="flex gap-3.5">
-                                <button>Ver modelos</button>
-                                <button>Comprar</button>
+                               <Button variant="secondary" size="sm">Ver modelos</Button>
+                               <Button>Ver modelos</Button>
                             </div>
                         </div>
                     </div>
