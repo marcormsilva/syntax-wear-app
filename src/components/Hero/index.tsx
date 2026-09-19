@@ -4,8 +4,8 @@ export const Hero = () => {
     return (
         <>
             <div className="container">
-                <section className="relative h-125 rounde-[20px] mb-10">
-                    <img src={Banner} alt="Homem sentado com tênis da SyntaxWear" className="w-full h-full object-cover rounded-[20px]" />
+                <section className="relative h-164.25 md:h-125 rounded-[20px] mb-10">
+                    <img src={Banner} alt="Homem sentado com tênis da SyntaxWear" className="w-full h-full object-cover rounded-[20px] object-[30%_center] md:object-center" />
 
                     <div className="absolute w-full bottom-0 flex justify-end items-center text-center px-6 md:px-24 pb-32">
                         <div className="text-white w-91 flex flex-col items-center ">

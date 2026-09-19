@@ -5,9 +5,9 @@ import tenisFuturista from "@/assets/images/tenis-futurista.jpg"
 import { Button } from "../Button"
 
 const categories = [
-    { name: "Casual", image: tenisBranco }
-    { name: "Esporte", image: tenisCinza }
-    { name: "Moderno", image: tenisColorido }
+    { name: "Casual", image: tenisBranco },
+    { name: "Esporte", image: tenisCinza },
+    { name: "Moderno", image: tenisColorido },
     { name: "Futurista", image: tenisFuturista }
 ]
 
